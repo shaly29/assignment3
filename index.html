@@ -58,45 +58,68 @@
     <!-- section2 -->
     <!-- main content start -->
     <main class="container">
-        <!-- main 1 -->
-        <div class="row my-3 main-row">
-            <div class="col-md-6">
-                <h1 class="heading">
-                    Plants will make <br />
-                    your life better
-                </h1>
-                <p class="home-description">
-                    Create incredible plant design for your offices<br> or apastaments. Add fresness to your new
-                    <br>ideas.
-                </p>
-                <a href="#about" class="btn btn-success p-3 my-4">
-                    Explore<i class="fas fa-arrow-right ps-2 icon1"></i>
+        
+        
+        <!--  -->
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active  ">
+                        <div class="row my-3 main-row five">
+                            <div class="col-md-6">
+                                <h1 class="heading">
+                                    Plants will make <br />
+                                    your life better
+                                </h1>
+                                <p class="home-description">
+                                    Create incredible plant design for your offices<br> or apastaments. Add fresness to your new
+                                    <br>ideas.
+                                </p>
+                                
+                                <a href="#about" class="btn btn-success p-3 my-4">
+                                    Explore<i class="fas fa-arrow-right ps-2 icon1"></i>
+                
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/home.png" alt="" class="home-img " />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <div class="row my-3 main-row two">
+                            <div class="col-md-6 ">
+                                <p>65% OFF</p>
+                
+                                <p > NEW PLANT </p>
+                                <p style="font-weight: 500; align-items: center;"> Pronia ,With 100% Natural,Organic &Plant Shop</p>
+                
+                                <a href="#about" class="btn btn-success p-3 my-4">
+                                    DiSCOVER NOW</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/carousel_480.png" alt="" class=" " />
+                            </div>
+                        </div>
+                    </div>
 
-                </a>
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/home.png" alt="" class="home-img " />
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden" style="color:black;" >Next</span>
+                </button>
             </div>
         </div>
-        <!-- main 2 -->
 
         <!-- section3 -->
-        <div class="row my-3 main-row two">
-            <div class="col-md-6 three">
-                <p>65% OFF</p>
-                
-                 <p class="four">   NEW PLANT </p>
-                <p> Pronia ,With 100% Natural,Organic &Plant Shop</p>
-
-                <a href="#about" class="btn btn-success p-3 my-4">
-                    DiSCOVER NOW</a>
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/carousel_480.png" alt="" class=" " />
-            </div>
-        </div>
         <div class="row my-5 main-row" id="about">
-            
+
             <div class=" col-md-6 ">
                 <img src="assets/img/about.png" alt="responsive webite" id="zoom-img" class="img-fluid about-img">
             </div>
@@ -138,6 +161,19 @@
 
         </div>
         <!-- image gallery -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        </div>
+        <!-- end main carousel -->
+
         <!-- image gallery -->
 
         <section id="products">
@@ -145,9 +181,9 @@
             <div class="row">
             </div>
             <div class="filter-button">
-             <button type="button" class="btn btn-default b1 text-success active ">Featured</button>
-             <button type="button" class="btn btn-default b1">Bestseller</button>
-             <button type="button" class="btn btn-default b1">Latest</button> 
+                <button type="button" class="btn btn-default b1 text-success active ">Featured</button>
+                <button type="button" class="btn btn-default b1">Bestseller</button>
+                <button type="button" class="btn btn-default b1">Latest</button>
             </div>
             <div class="row py-3 shadow-5">
                 <article class="col-md-3 pcard">
@@ -444,9 +480,9 @@
 
                             </div>
                         </div>
-                       
-                        
-                        
+
+
+
                     </div>
                 </div>
 
@@ -499,6 +535,7 @@
                         <label for="message" class="form-label">Message <span>*</span></label>
                         <textarea class="form-control" id="message" required></textarea>
                     </div>
+                    
                     <div class="col-3 ms-md-auto">
                         <button type="submit" class="btn btn-success mt-3 text-center py-2 rounded-3"
                             style="width: 10rem">
@@ -566,18 +603,16 @@
             </div>
 
         </footer>
-        
+        <!-- jjd -->
+
+
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script src="script.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUZ61A_lK8Em8_DQ6kSlGzX-SDBK1lEKg&callback=initMap"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUZ61A_lK8Em8_DQ6kSlGzX-SDBK1lEKg&callback=initMap"></script>
 
-        
+
 </body>
 
 </html>
-
-
-
-
-

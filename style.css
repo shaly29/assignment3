@@ -16,7 +16,9 @@ body {
 .dark-mode .questions-item-title{
   color: black;
 }
-
+.dark-mode .visually-hidden{
+  color: black !important;
+}
 .dark-mode {
     background-color: #000;
     color: #fff;
@@ -37,8 +39,12 @@ nav{
     font-weight: 900;
 }
 .two{
-  background-color: pink;
+  background-color: rgb(241, 139, 156);
   justify-content: center;
+  height: 500px;
+}
+.five{
+  height: 500px;
 }
 .three{
   /* justify-content: center !important; */
