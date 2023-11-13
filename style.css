@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.dark-mode nav a{
+  color: white;
+}
+.dark-mode nav {
+  background: #000 !important;
+}
+.dark-mode .questions-item-title{
+  color: black;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+/* nav css start */
+nav{
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  background: white !important;
+  z-index: 6;
+}
+.favicon {
+    font-weight: 900;
+}
+.one {
+    font-weight: 900;
+}
+.two{
+  background-color: pink;
+  justify-content: center;
+}
+.three{
+  /* justify-content: center !important; */
+}
+.four{
+  justify-content: center;
+  font-weight: 400;
+}
+.ive-link {
+    position: relative;
+    color: #176a41;
+}
+.active-link:act:before {
+    content: "";
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #10693d;
+}
+.moon {
+    color: #348655;
+    font-size: 1.28rem;
+    cursor: pointer;
+}
+.icon1{
+  transform: rotate(45deg);
+}
+
+/* nav css end */
+/* main css start */
+.heading {
+    font-size: 4.0rem;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.home-description {
+    padding-right: 7rem;
+    font-weight: 450;
+    
+}
+.home-img{
+  margin-top: 3rem;
+  height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center ;
+}
+
+.zoom-img-container {
+  overflow: hidden;
+  cursor: pointer; 
+}
+.about-img {
+  width: 280px;
+  justify-self: center;
+  transition: transform 0.3s ease;
+}
+.zoomed {
+  transform: scale(1.5); 
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.about-icon {
+    font-size: 1rem;
+    color: #1b4f35;
+    margin-top: 0.15rem;
+}
+.questions-header {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
+    cursor: pointer;
+}
+.questions-item-title {
+    font-size: 0.813rem;
+    font-weight: 500;
+}
+.icon-size {
+    font-size: 2rem;
+}
+.form-shdow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 1px solid #1b4f35;
+    border-radius: 10px;
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 2px solid #1b4f35;
+    padding: 0;
+    border-radius: 0 !important;
+}
+/* main css end */
+.product{
+  font-weight: 500;
+  text-align: center;
+}
+.b1{
+  border: dotted;
+  align-items: center;
+}
+.pcard {
+  display: grid;
+  position: relative;
+}
+
+.pimg {
+  position: relative;
+  width: 180px;
+  justify-self: right;
+  margin-bottom: 1.7rem;
+  transition: 0.3s;
+}
+.rating {
+  bottom: 0;
+  color: #fff200;
+  margin-top: 10px;
+  border-radius: 0.30rem;
+  font-size: 1.15rem;
+  border: none;
+}
+.product-title {
+  margin-bottom: 0.25rem;
+}
+.secp{
+  border: dotted;
+  
+  background-color: white;
+  color: #0f880d;
+}
+.filter-button{
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+/* faqs css start */
+.questions {
+  background-color: #639cdd;
+}
+
+.q1 {
+  display: grid;
+  row-gap: 1.5rem;
+}
+.questions-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.questions-item {
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.questions-item-title {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.questions-icon {
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.questions-description {
+  font-size: 1.3m;
+  padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+ .questions-header {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+} 
+
+.questions-content {
+  overflow: hidden;
+  height: 0;
+}
+
+.questions-item,
+.questions-header,
+.questions-item-title,
+.questions-icon,
+.questions-description,
+.questions-content {
+  transition: 0.3s;
+}
+
+.questions-item:hover {
+  box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+}
+
+.accordion-open .questions-header,
+.accordion-open .questions-content {
+  background-color: #10693d;
+}
+
+.accordion-open .questions-item-title,
+.accordion-open .questions-description,
+.accordion-open .questions-icon {
+  color: #fff;
+}
+
+.accordion-open .questions-icon {
+  transform: rotate(45deg);
+}
+/* faqs css end */
+/* card */
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+  
+.team{
+  height: 300px;
+  justify-content: center;
+}
+.slide-container{
+  max-width: 100%;
+  /* width: 50%; */
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 80px;
+  background-color: #FFF;
+  width: 380px;
+  margin-bottom: 20px;
+}
+.card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+.image-content,
+.card-content{
+  display: grid;
+  flex-direction: column;
+  align-items: right;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+}
+.overlay::after{
+  border-radius: 0 0 0 45px ;
+  background-color: #0f880d;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: justify;
+  margin-top: 10px;
+  
+}
+.fav1{
+  background-color: white;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  color:rgb(70, 209, 70);
+  box-sizing: border-box;
+  padding: 9px;
+}
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+/* card end */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+  height: 30vh;
+  width: 80vw;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* footer */
+
+   
+   .sub {
+    background-color: rgb(149, 213, 250) !important;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    
+}
+  .f2{
+    margin-top: 25px;
+  }
+  .email {
+    width: 60%;
+    padding: 0 0.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    
+}
+  .icon2{
+    transform: rotate(-45deg);
+  }
+  
+  .cards{
+    width: 45px;
+  }
+  .Copyright{
+      width: 100%;
+      /* background: #fff; */
+      /* padding: 20px 10px 59px; */
+      text-align: center;
+  }
+  
+  
+  
